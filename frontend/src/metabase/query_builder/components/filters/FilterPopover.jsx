@@ -387,7 +387,7 @@ export default class FilterPopover extends Component {
               })}
               onClick={() => this.commitFilter(this.state.filter)}
             >
-              {!this.props.filter ? t`Add filter` : t`Update filter`}
+              {!this.props.filter ? "查询" : "查询"}
             </button>
           </div>
         </div>
